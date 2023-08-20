@@ -1,0 +1,16 @@
+query RepositoriesWithStars($searchQuery: String!) {
+  search(query: $searchQuery, type: REPOSITORY, first: 50) {
+    edges {
+      node {
+        ... on Repository {
+          name
+          stargazerCount
+        }
+      }
+    }
+    pageInfo {
+      endCursor
+      startCursor
+    }
+  }
+}
