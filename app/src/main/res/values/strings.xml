@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HeroGraphQLExercise</string>
+    <string name="error_search_query_empty">Bitte geben Sie einen Suchbegriff ein</string>
+    <string name="error_search_repositories_no_connection">Die Suche konnte nicht durchgeführt werden. Bitte prüfen Sie Ihre Datenverbindung</string>
 </resources>
